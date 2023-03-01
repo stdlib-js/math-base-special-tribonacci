@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/math-base-special-tribonacci",
-  "version": null,
+  "version": "0.0.0",
   "description": "Compute the nth Tribonacci number.",
   "license": "Apache-2.0",
   "author": {
