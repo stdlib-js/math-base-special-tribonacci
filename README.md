@@ -61,7 +61,7 @@ with seed values `F_0 = 0`, `F_1 = 0`, and `F_2 = 1`.
 ## Usage
 
 ```javascript
-import tribonacci from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-tribonacci@esm/index.mjs';
+import tribonacci from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-tribonacci@v0.0.0-esm/index.mjs';
 ```
 
 #### tribonacci( n )
@@ -131,7 +131,7 @@ var v = tribonacci( NaN );
 <body>
 <script type="module">
 
-import tribonacci from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-tribonacci@esm/index.mjs';
+import tribonacci from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-tribonacci@v0.0.0-esm/index.mjs';
 
 var v;
 var i;
