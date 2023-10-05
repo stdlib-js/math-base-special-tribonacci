@@ -28,7 +28,7 @@ var tribonacci = require( './../../dist' );
 
 // FIXTURES //
 
-var TRIBONACCI = require( './../../dist/tribonacci.json' );
+var TRIBONACCI = require( './../../lib/tribonacci.json' );
 
 
 // TESTS //
