@@ -80,7 +80,7 @@ with seed values `F_0 = 0`, `F_1 = 0`, and `F_2 = 1`.
 ## Usage
 
 ```javascript
-import tribonacci from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-tribonacci@deno/mod.js';
+import tribonacci from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-tribonacci@v0.2.0-deno/mod.js';
 ```
 
 #### tribonacci( n )
@@ -145,7 +145,7 @@ var v = tribonacci( NaN );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import tribonacci from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-tribonacci@deno/mod.js';
+import tribonacci from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-tribonacci@v0.2.0-deno/mod.js';
 
 var v;
 var i;
