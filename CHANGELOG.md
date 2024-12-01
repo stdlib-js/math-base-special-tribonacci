@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-11-01)
+## Unreleased (2024-12-01)
 
 <section class="commits">
 
@@ -92,6 +92,18 @@ No changes reported for this release.
 </section>
 
 <!-- /.breaking-changes -->
+
+<section class="issues">
+
+### Closed Issues
+
+This release closes the following issue:
+
+[#895](https://github.com/stdlib-js/stdlib/issues/895)
+
+</section>
+
+<!-- /.issues -->
 
 <section class="commits">
 
