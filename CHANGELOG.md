@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-06-23)
+## Unreleased (2025-09-07)
 
 <section class="bug-fixes">
 
@@ -16,12 +16,25 @@
 
 <!-- /.bug-fixes -->
 
+<section class="breaking-changes">
+
+### BREAKING CHANGES
+
+-   [`134c514`](https://github.com/stdlib-js/stdlib/commit/134c5141e7f471a82d5a3bd01a0bc6b8f9b71421): update signature to accept doubles
+
+    -   User code should behave similarly in the primary case of providing integer-valued input values. However, no longer will real-values truncate. Now, real-valued inputs will result in `NaN`, which is, arguably, better behavior, as real-to-integer truncation can be a source of silent bugs.
+
+</section>
+
+<!-- /.breaking-changes -->
+
 <section class="commits">
 
 ### Commits
 
 <details>
 
+-   [`134c514`](https://github.com/stdlib-js/stdlib/commit/134c5141e7f471a82d5a3bd01a0bc6b8f9b71421) - **refactor:** modify C implementation to accept `double` instead of `int32` in `math/base/special/tribonacci` [(#8031)](https://github.com/stdlib-js/stdlib/pull/8031) _(by Gunj Joshi, Athan Reines)_
 -   [`a1e230f`](https://github.com/stdlib-js/stdlib/commit/a1e230f29297caa89880e9c194c615a0400fb7bc) - **chore:** clean up cppcheck-suppress comments _(by Karan Anand)_
 -   [`0bd3d46`](https://github.com/stdlib-js/stdlib/commit/0bd3d468411928205902144c8f81c2c5b06f60cc) - **bench:** update random value generation [(#5471)](https://github.com/stdlib-js/stdlib/pull/5471) _(by Karan Anand, Karan Anand)_
 -   [`dfc7be6`](https://github.com/stdlib-js/stdlib/commit/dfc7be6493380962a6ef790f6ddccfa570aff6f3) - **fix:** add missing `native.js` to `math/base/special/tribonacci` [(#5472)](https://github.com/stdlib-js/stdlib/pull/5472) _(by Karan Anand, stdlib-bot)_
