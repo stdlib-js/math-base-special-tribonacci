@@ -82,7 +82,7 @@ with seed values `F_0 = 0`, `F_1 = 0`, and `F_2 = 1`.
 To use in Observable,
 
 ```javascript
-tribonacci = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-tribonacci@umd/browser.js' )
+tribonacci = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-tribonacci@v0.3.0-umd/browser.js' )
 ```
 
 To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
@@ -94,7 +94,7 @@ var tribonacci = require( 'path/to/vendor/umd/math-base-special-tribonacci/index
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-tribonacci@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-tribonacci@v0.3.0-umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -172,7 +172,7 @@ var v = tribonacci( NaN );
 <!DOCTYPE html>
 <html lang="en">
 <body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-tribonacci@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-tribonacci@v0.3.0-umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
